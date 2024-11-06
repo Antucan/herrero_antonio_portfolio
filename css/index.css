@@ -1,0 +1,35 @@
+.sixtyfour-title {
+    font-family: "Sixtyfour", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+    font-style: normal;
+    font-variation-settings:
+        "BLED" 0,
+        "SCAN" 0;
+}
+
+body {
+    background-color: #1E1E1E;
+}
+
+h1 {
+    font-family: "Sixtyfour";
+    font-weight: lighter;
+    font-size: 55px;
+    color: #9EC1E7;
+}
+
+#general {
+    display: flexbox;
+    width: 1000px;
+}
+
+#principal {
+    display: inline-block;
+    width: 600px;
+}
+
+#flags img{
+    display: inline-block;
+    width: 50px;
+}
