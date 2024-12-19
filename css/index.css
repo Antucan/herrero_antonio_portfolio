@@ -6,6 +6,11 @@
 }
 
 @font-face {
+    font-family: 'Sixtyfour';
+    src:url('/media/font/Sixtyfour-Regular.ttf')
+}
+
+@font-face {
     font-family: 'IBM Plex Mono';
     src: url('/media/font/IBMPlexMono-Bold.ttf');
 }
@@ -40,7 +45,7 @@ body {
 /*---------- PRINCIPAL ----------*/
 
 h1 {
-    font-family: 'IBM Logo';
+    font-family: 'Sixtyfour';
     font-weight: lighter;
     font-size: 55px;
     color: #9EC1E7;
@@ -60,7 +65,7 @@ h1 {
 
 #title {
     display: flex;
-    width: 600px;
+    width: 800px;
 }
 
 #flags {
@@ -78,6 +83,7 @@ h1 {
 /*---------- SOBRE MI ----------*/
 
 #about {
+    display: flex;
     font-family: 'IBM Plex Mono';
 }
 
@@ -89,7 +95,7 @@ h1 {
 
 .info-block {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .label {
@@ -99,8 +105,32 @@ h1 {
 
 .value {
     color: #9EC1E7;
+    text-align: left;
 }
 
 .about-info {
     color: #9EC1E7;
+}
+
+#icon {
+    width: 50px;
+}
+
+/*---------- PROYECTOS ----------*/
+
+#space {
+    width: 50px;
+}
+
+#proyecto1 {
+    display: inline;
+    width: 500px;
+}
+
+#folder {
+    width: 200px;
+}
+
+#proyectos > p {
+    text-align: center;
 }
